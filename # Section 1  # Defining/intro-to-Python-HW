@@ -44,10 +44,10 @@ print("         RECEIPT           ")
 print("===========================")
 
 print(f"Item:      {item}")
-print(f"Price:     $ {price}")
+print(f"Price:     $ {price:.2f}")
 print(f"Quantity:  {quantity}")
 print(f"\n-------------------------\n")
-print(f"Total:     $ {total} ")
+print(f"Total:     $ {total:.2f} ")
 print("\n===========================")
 
 # Section 5
@@ -67,8 +67,6 @@ print("===========================")
 print(f"Name: {name}")
 print(f"Hometown: {hometown}")
 print(f"Fun fact: {fun_fact}")
+print(f"Hobby: {hobby}")
 print(f"Age: {age} years")
 print(f"\n-------------------------\n")
-
-
-
