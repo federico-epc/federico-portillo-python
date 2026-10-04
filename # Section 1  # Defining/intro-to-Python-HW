@@ -64,9 +64,10 @@ print("===========================")
 print("|         PROFILE         |")
 print("===========================")
 
-print(f"Name: {name}")
+print(f"Name:     {name}")
 print(f"Hometown: {hometown}")
 print(f"Fun fact: {fun_fact}")
-print(f"Hobby: {hobby}")
-print(f"Age: {age} years")
+print(f"Hobby:    {hobby}")
+print(f"Age:      {age} years")
 print(f"\n-------------------------\n")
+
