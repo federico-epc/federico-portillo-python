@@ -15,10 +15,9 @@ print(is_student, type(is_student))
 # Section 2
 
 # Using input to ask user values 
-name = input("Please type your name: ").upper()                   
-current = int(input("Enter the current year (yyyy): "))
+name = input("Please type your name: ")                   
 year = int(input("Please enter the year you were born (yyyy): "))
-age = current - year
+age = 2026 - year
 
 print(f"\nHello {name}! You are {age} years young!")
 
@@ -34,16 +33,21 @@ print(f"{num1} x {num2} = {prod:.2f}")
 
 # Section 4
 
+item = "Laptop"
+price = 900
+quantity = 5
+total = price*quantity
+
 # Printing the formatting of a receipt
 print("===========================")
 print("         RECEIPT           ")
 print("===========================")
 
-print("Item:      Laptop")
-print("price:     $ 900")
-print(f"Quantity:  5")
+print(f"Item:      {item}")
+print(f"Price:     $ {price}")
+print(f"Quantity:  {quantity}")
 print(f"\n-------------------------\n")
-print(f"Total:     $ 4,500 ")
+print(f"Total:     $ {total} ")
 print("\n===========================")
 
 # Section 5
@@ -53,7 +57,8 @@ name = input("Please type your name: ")
 hometown = input("Please type your hometown city: ")
 hobby = input("Type the name of your favorite hobby: ")
 fun_fact = input("Give us a fun fact:")
-age = int(input("What is your age? "))
+year = int(input("Please enter the year you were born (yyyy): "))
+age = 2026 - year
 
 print("===========================")
 print("|         PROFILE         |")
@@ -61,7 +66,7 @@ print("===========================")
 
 print(f"Name: {name}")
 print(f"Hometown: {hometown}")
-print(f"Fun Fact")
+print(f"Fun fact: {fun_fact}")
 print(f"Age: {age} years")
 print(f"\n-------------------------\n")
 
