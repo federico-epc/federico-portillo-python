@@ -1,0 +1,69 @@
+# Section 1
+
+# Defining/initializing variables
+name = "Fred"     
+age = 42
+height = 5.7
+is_student = True
+
+#Printing the variables' value
+print(name, type(name))
+print(age, type(age))
+print(height, type(height))
+print(is_student, type(is_student))
+
+# Section 2
+
+# Using input to ask user values 
+name = input("Please type your name: ").upper()                   
+current = int(input("Enter the current year (yyyy): "))
+year = int(input("Please enter the year you were born (yyyy): "))
+age = current - year
+
+print(f"\nHello {name}! You are {age} years young!")
+
+# Section 3
+
+# Using input to ask user value 
+num1 = float(input("enter any number: "))   #float converts entered value to a float
+num2 = float(input("enter another number: "))
+
+prod = num1*num2                           # Carries out the product os the two numbers
+
+print(f"{num1} x {num2} = {prod:.2f}")
+
+# Section 4
+
+# Printing the formatting of a receipt
+print("===========================")
+print("         RECEIPT           ")
+print("===========================")
+
+print("Item:      Laptop")
+print("price:     $ 900")
+print(f"Quantity:  5")
+print(f"\n-------------------------\n")
+print(f"Total:     $ 4,500 ")
+print("\n===========================")
+
+# Section 5
+
+# Ask for user input to produce a formatted profile withh the information given
+name = input("Please type your name: ")
+hometown = input("Please type your hometown city: ")
+hobby = input("Type the name of your favorite hobby: ")
+fun_fact = input("Give us a fun fact:")
+age = int(input("What is your age? "))
+
+print("===========================")
+print("|         PROFILE         |")
+print("===========================")
+
+print(f"Name: {name}")
+print(f"Hometown: {hometown}")
+print(f"Fun Fact")
+print(f"Age: {age} years")
+print(f"\n-------------------------\n")
+
+
+
