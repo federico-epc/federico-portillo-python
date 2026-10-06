@@ -1,12 +1,13 @@
 # Section 1
 
 # Defining/initializing variables
-name = "Fred"     
-age = 42
-height = 5.7
-is_student = True
+print("SECTION 1\n")
+name = "Fred"      # String
+age = 42           # Integer
+height = 5.7       # Float
+is_student = True  # Boolean
 
-#Printing the variables' value
+# Printing the variables' value
 print(name, type(name))
 print(age, type(age))
 print(height, type(height))
@@ -14,17 +15,18 @@ print(is_student, type(is_student))
 
 # Section 2
 
+print("\nSECTION 2\n")
 # Using input to ask user values 
 name = input("Please type your name: ")                   
 year = int(input("Please enter the year you were born (yyyy): "))
-age = 2026 - year
+age = 2026 - year    # Assumes the current year (2026) and calculates the user's age based on their input
 
 print(f"\nHello {name}! You are {age} years young!")
 
 # Section 3
-
-# Using input to ask user value 
-num1 = float(input("enter any number: "))   #float converts entered value to a float
+print("\nSECTION 3\n")
+# Using input to ask user number 
+num1 = float(input("enter any number: "))   #float converts the entered value into a float
 num2 = float(input("enter another number: "))
 
 prod = num1*num2                           # Carries out the product os the two numbers
@@ -32,17 +34,19 @@ prod = num1*num2                           # Carries out the product os the two 
 print(f"{num1} x {num2} = {prod:.2f}")
 
 # Section 4
-
+print("\nSECTION 4\n")
+# Variables for the receipt
 item = "Laptop"
 price = 900
 quantity = 5
 total = price*quantity
 
-# Printing the formatting of a receipt
-print("===========================")
+# Printing the formatting of the receipt
+print("\n===========================")
 print("         RECEIPT           ")
 print("===========================")
 
+# Printing the values in the receipt format
 print(f"Item:      {item}")
 print(f"Price:     $ {price:.2f}")
 print(f"Quantity:  {quantity}")
@@ -53,6 +57,8 @@ print("\n===========================")
 # Section 5
 
 # Ask for user input to produce a formatted profile withh the information given
+print("\nSECTION 5\n")
+# Variables
 name = input("Please type your name: ")
 hometown = input("Please type your hometown city: ")
 hobby = input("Type the name of your favorite hobby: ")
@@ -60,14 +66,15 @@ fun_fact = input("Give us a fun fact:")
 year = int(input("Please enter the year you were born (yyyy): "))
 age = 2026 - year
 
+# Printing the formatting of the user's profile
 print("===========================")
 print("|         PROFILE         |")
 print("===========================")
 
+# Printing the values in profile format
 print(f"Name:     {name}")
 print(f"Hometown: {hometown}")
 print(f"Fun fact: {fun_fact}")
 print(f"Hobby:    {hobby}")
 print(f"Age:      {age} years")
 print(f"\n-------------------------\n")
-
